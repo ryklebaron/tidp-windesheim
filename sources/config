@@ -1,0 +1,5 @@
+Host root-login
+     HostName 127.0.0.1
+     User root
+     Port 22
+     IdentityFile /home/kaas/.ssh/id_rsa
