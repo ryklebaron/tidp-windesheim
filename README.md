@@ -41,8 +41,8 @@ There one can find the second flag in a file called youMadeIt
 
 # Run this image
 ```
-docker build -t windesheim-tidpD .
-docker run -d -p 2222:22 -p 8080:80 --name ctf-container windesheim-tidpD
+docker build -t windesheim-tidpd .
+docker run -d -p 2222:22 -p 8080:80 --name ctf-container windesheim-tidpd
 ```
 
 ## Explained ports
