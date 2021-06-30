@@ -23,7 +23,7 @@ RUN rm -rf /var/www/html/index.html
 ADD --chown=www-data:www-data sources/html/index.php /var/www/html/index.php
 ADD --chown=www-data:www-data sources/html/ping_get.php /var/www/html
 RUN chown -R www-data:www-data /var/www/html
-RUN chmod -R 774 /var/www/html/*
+RUN chmod -R 555 /var/www/
 
 # Start ssh
 CMD service ssh restart
