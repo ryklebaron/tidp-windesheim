@@ -32,7 +32,7 @@ This file contains two things:
 1.	a flag
 2.	credentials to log in with ssh
 ```
-ssh -p 222 kaas@"yourContainersHostIpAddress"
+ssh -p 2222 kaas@"yourContainersHostIpAddress"
 ```
 Now you are inside the system.
 In the .ssh folder, you can find a configuration which will allow you to login to the root on the same system.
